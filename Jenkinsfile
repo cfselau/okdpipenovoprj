@@ -1,6 +1,6 @@
 pipeline {
     environment {
-        registry = "registry.hml.fiesc.com.br/apppipe/appj"
+        registry = "registry.hml.fiesc.com.br/apppipe1/app2"
         dockerImage = ''
         registryCredential = 'oc-registry'
     }
