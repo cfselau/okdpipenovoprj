@@ -1,9 +1,13 @@
 pipeline {
     environment {
+<<<<<<< HEAD
         registryHML = "registry.hml.fiesc.com.br/demoprj/appas"
         registryPRD = "registry.fiesc.com.br/demo1/appas"
         registryCredentialHML = 'registry-hml'
         registryCredentialPRD = 'registry-prd'
+=======
+        registry = "registry.hml.fiesc.com.br/novoprj/appn"
+>>>>>>> 825678b0ac86ef90b5b84d5a07cb6306ce45d07e
         dockerImage = ''
     }
     agent any
